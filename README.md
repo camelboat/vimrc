@@ -1,7 +1,11 @@
 # vimrc
-Vim setting, support auto-completion for C, C++ and python.
+This is my .vimrc Vim setting, support auto-completion for C, C++ and python.
 
 Use Vundle to manage the plugins of vim.
+
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim 
+
+Use :PluginInstall to apply the plugins. 
 
 Apply YCM for auto-completion.
 
