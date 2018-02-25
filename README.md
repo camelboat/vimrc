@@ -1,4 +1,5 @@
 # vimrc
+
 This is my .vimrc Vim setting, support auto-completion for C, C++ and python.
 
 Use Vundle to manage the plugins of vim.
@@ -9,7 +10,11 @@ Use :PluginInstall to apply the plugins.
 
 Apply YCM for auto-completion.
 
-# Plugin Lists:
+2018_2_26
+
+Add plugin for .md file highlighting and instant view
+
+## Plugin Lists:
 
 VundleVim/Vundle.vim
 
@@ -30,3 +35,9 @@ code_complete
 taglist.vim
 
 majutsushi/tagbar
+
+godlygeek/tabular
+
+plasticboy/vim-markdown
+
+suan/vim-instant-markdown

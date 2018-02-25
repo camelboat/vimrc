@@ -29,7 +29,7 @@ Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 
 let g:vim_markdown_folding_disabled = 0
-
+let g:vim_markdown_conceal = 0
 Plugin 'suan/vim-instant-markdown'
 """""""""""""""""""""""""""""""""""""""
 
