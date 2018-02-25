@@ -23,7 +23,6 @@ Plugin 'vim-airline/vim-airline'
 
 Plugin 'vim-airline/vim-airline-themes'
 
-
 """""""""""""""""""""""""""""""""""""""
 " Markdown Plugin
 Plugin 'godlygeek/tabular'
@@ -33,8 +32,6 @@ let g:vim_markdown_folding_disabled = 0
 
 Plugin 'suan/vim-instant-markdown'
 """""""""""""""""""""""""""""""""""""""
-
-
 
 
 filetype plugin indent on    " required
