@@ -5,12 +5,14 @@ This is my .vimrc Vim setting, supportting auto-completion for C, C++ and python
 Use Vundle to manage the plugins of vim.
 
 Use the following command to install vundle
+
 $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim 
 
 Use :PluginInstall to apply the plugins. 
 
 Apply YCM for auto-completion.
-May need to manually install Clang to enable c and c++ auto-completion
+
+*(May need to manually install Clang to enable c and c++ auto-completion)*
 
 ## Updating Log
 ### 2018_2_26
