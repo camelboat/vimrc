@@ -18,6 +18,9 @@ Apply YCM for auto-completion.
 ### 2018_2_26
 Add plugin for .md file highlighting and instant view
 
+### 2018_3_24
+Modify .py highlighting
+
 ## Plugin Lists:
 
 VundleVim/Vundle.vim
