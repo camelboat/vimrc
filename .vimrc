@@ -1,6 +1,8 @@
 set nocompatible
 filetype off
 
+let python_highlight_all = 1
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -28,7 +30,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 
-let g:vim_markdown_folding_disabled = 0
+let g:vim_markdown_folding_disabled = 1
 let g:vim_markdown_conceal = 0
 Plugin 'suan/vim-instant-markdown'
 """""""""""""""""""""""""""""""""""""""
@@ -87,4 +89,8 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 
 let g:airline#extensions#tabline#left_alt_sep = '|'
+
+au BufNewFile,BufRead *.cu set ft=cuda
+au BUfNewFIle,BufRead *.cuh set ft=cuda
+
 call vundle#end()            " required
